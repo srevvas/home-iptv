@@ -42,7 +42,7 @@ EPG_IDS = {
     'SigmaTV.cy@SD': 'sigma',
     'VouliTV.cy@SD': 'vouli',
     'StarChannel.gr@SD': 'STAR.gr',
-    'StarKentrikisElladas.gr@SD': 'StarΚεντρικήςΕλλάδας.gr',
+    'StarKentrikisElladas.gr@SD': 'star-kentrikis-elladas',
 }
 
 
@@ -74,13 +74,19 @@ def load_epg():
             source_channels = {}
             for channel in root.findall('channel'):
                 channel_id = channel.get('id')
+                if channel_id == 'StarΚεντρικήςΕλλάδας.gr':
+                   channel_id = 'star-kentrikis-elladas'
+                   channel.set('id', channel_id)
                 if channel_id:
-                    source_channels.setdefault(channel_id, channel)
+                   source_channels.setdefault(channel_id, channel)
             source_programmes = defaultdict(list)
             for programme in root.findall('programme'):
                 channel_id = programme.get('channel')
+                if channel_id == 'StarΚεντρικήςΕλλάδας.gr':
+                   channel_id = 'star-kentrikis-elladas'
+                   programme.set('channel', channel_id)
                 if channel_id:
-                    source_programmes[channel_id].append(programme)
+                   source_programmes[channel_id].append(programme)
             added = 0
             for channel_id, items in source_programmes.items():
                 # Do not replace a working EPG ID from the first source.
