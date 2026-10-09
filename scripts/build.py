@@ -1,10 +1,10 @@
 from pathlib import Path
 from urllib.request import Request, urlopen
 import gzip
+import difflib
 import re
 import unicodedata
 import xml.etree.ElementTree as ET
-import difflib
 
 BASE = 'https://iptv-org.github.io/iptv/countries/'
 EPG_URL = 'https://ext.greektv.app/epg/epg.xml.gz'
@@ -22,7 +22,25 @@ COUNTRIES = [
 DEST = Path(__file__).resolve().parents[1] / 'docs' / 'home.m3u'
 
 # Verified mapping; automatic matches supplement these rules.
-EPG_IDS = {'AlphaTV.gr@SD': 'alpha'}
+EPG_IDS = {
+    'AlphaTV.gr@SD': 'alpha',
+    'AcheloosTV.gr@SD': 'axelwostv',
+    'AeolosTV.gr@SD': 'aeolos',
+    'AlertTV.gr@SD': 'alert',
+    'BlueSkyTV.gr@SD': 'bluesky',
+    'EgnatiaTV.gr@SD': 'egnatia',
+    'EpilogesTV.gr@SD': 'tileepiloges',
+    'IonianTV.gr@SD': 'ionian',
+    'LepantoTV.gr@SD': 'lepanto',
+    'SkaiTV.gr@SD': 'skai',
+    'Telekriti.gr@SD': 'thlekriti',
+    'ThrakiNetTV.gr@SD': 'thrakinet',
+    'TVCreta.gr@SD': 'creta',
+    'VerginaTV.gr@SD': 'berginatv',
+    'ANT1Cyprus.cy@SD': 'ant1cy',
+    'SigmaTV.cy@SD': 'sigma',
+    'VouliTV.cy@SD': 'vouli',
+}
 
 
 def fetch(url):
@@ -44,9 +62,10 @@ def epg_index():
     root = ET.fromstring(data)
     index = {}
     ambiguous = set()
+    programme_ids = {node.get('channel') for node in root.findall('programme')}
     for channel in root.findall('channel'):
         channel_id = channel.get('id')
-        if not channel_id:
+        if not channel_id or channel_id not in programme_ids:
             continue
         candidates = [channel_id]
         candidates.extend(node.text for node in channel.findall('display-name') if node.text)
@@ -61,7 +80,7 @@ def epg_index():
     for key in ambiguous:
         index.pop(key, None)
     print(f'EPG channel entries: {len(root.findall("channel"))}; unique lookup keys: {len(index)}')
-    return index
+    return index, programme_ids
 
 
 def entries(text):
@@ -82,10 +101,11 @@ def entries(text):
 def main():
     # If EPG is temporarily unreachable, keep the playlist build working.
     try:
-        lookup = epg_index()
+        lookup, programme_ids = epg_index()
     except Exception as exc:
         print(f'WARNING: EPG unavailable ({exc}); using verified mappings only')
         lookup = {}
+        programme_ids = None
 
     output = ['#EXTM3U']
     counts = {}
@@ -104,6 +124,10 @@ def main():
                 # Avoid guessing from a generic word in a longer channel name.
                 candidates = [normalize(old_id.split('@', 1)[0].split('.', 1)[0]), normalize(title)]
                 new_id = EPG_IDS.get(old_id)
+                # When EPG is available, require actual programme entries.
+                if new_id and programme_ids is not None and new_id not in programme_ids:
+                    print(f'WARNING: no programmes for mapping {old_id} -> {new_id}')
+                    new_id = None
                 if not new_id:
                     matches = {lookup[key] for key in candidates if key in lookup}
                     if len(matches) == 1:
@@ -137,24 +161,12 @@ def main():
         print('UNMATCHED:', item)
         channel_name = item.split(': ', 1)[-1].rsplit(' [', 1)[0]
         channel_key = normalize(channel_name)
-
         suggestions = difflib.get_close_matches(
-            channel_key,
-            list(lookup.keys()),
-            n=3,
-            cutoff=0.55
+            channel_key, list(lookup.keys()), n=3, cutoff=0.55
         )
-
         for suggestion in suggestions:
-            print(
-                '  POSSIBLE EPG:',
-                lookup[suggestion],
-                '| similarity:',
-                round(difflib.SequenceMatcher(
-                    None, channel_key, suggestion
-                ).ratio() * 100),
-                '%'
-            )
+            print('  POSSIBLE EPG:', lookup[suggestion], '| similarity:',
+                  round(difflib.SequenceMatcher(None, channel_key, suggestion).ratio() * 100), '%')
 
 
 if __name__ == '__main__':
