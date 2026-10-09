@@ -41,6 +41,7 @@ EPG_IDS = {
     'SigmaTV.cy@SD': 'sigma',
     'VouliTV.cy@SD': 'vouli',
     'StarChannel.gr@SD': 'STAR.gr',
+    'StarKentrikisElladas.gr@SD': 'StarΚεντρικήςΕλλάδας.gr',
 }
 
 
