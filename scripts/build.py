@@ -18,6 +18,10 @@ COUNTRIES = [
 
 DEST = Path(__file__).resolve().parents[1] / 'docs' / 'home.m3u'
 
+EPG_IDS = {
+    'AlphaTV.gr@SD': 'alpha',
+}
+
 def download(code):
     req = Request(BASE + code + '.m3u', headers={'User-Agent':'HomeIPTVPlaylist/1.0'})
     with urlopen(req, timeout=40) as response:
@@ -47,6 +51,11 @@ def main():
         count = 0
         for metadata, stream in entries(source):
             extinf = metadata[0]
+                for old_id, new_id in EPG_IDS.items():
+                extinf = extinf.replace(
+                    f'tvg-id="{old_id}"',
+                    f'tvg-id="{new_id}"'
+                )
             if 'group-title="' in extinf:
                 extinf = re.sub(r'group-title="[^"]*"', f'group-title="{label}"', extinf, count=1)
             else:
