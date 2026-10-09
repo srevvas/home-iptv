@@ -4,6 +4,7 @@ import gzip
 import re
 import unicodedata
 import xml.etree.ElementTree as ET
+import difflib
 
 BASE = 'https://iptv-org.github.io/iptv/countries/'
 EPG_URL = 'https://ext.greektv.app/epg/epg.xml.gz'
@@ -134,6 +135,26 @@ def main():
     print('Greek/Cypriot unmatched:', len(unmatched))
     for item in unmatched:
         print('UNMATCHED:', item)
+        channel_name = item.split(': ', 1)[-1].rsplit(' [', 1)[0]
+        channel_key = normalize(channel_name)
+
+        suggestions = difflib.get_close_matches(
+            channel_key,
+            list(lookup.keys()),
+            n=3,
+            cutoff=0.55
+        )
+
+        for suggestion in suggestions:
+            print(
+                '  POSSIBLE EPG:',
+                lookup[suggestion],
+                '| similarity:',
+                round(difflib.SequenceMatcher(
+                    None, channel_key, suggestion
+                ).ratio() * 100),
+                '%'
+            )
 
 
 if __name__ == '__main__':
