@@ -3,7 +3,19 @@ from urllib.request import Request, urlopen
 import re
 
 BASE = 'https://iptv-org.github.io/iptv/countries/'
-COUNTRIES = [('gr','Ελληνικά'), ('fr','Γαλλικά'), ('al','Αλβανικά'), ('uk','Βρετανικά'), ('us','Αμερικανικά')]
+
+COUNTRIES = [
+    ('gr', 'Ελληνικά'),
+    ('cy', 'Κυπριακά'),
+    ('fr', 'Γαλλικά'),
+    ('uk', 'Βρετανικά'),
+    ('de', 'Γερμανικά'),
+    ('it', 'Ιταλικά'),
+    ('es', 'Ισπανικά'),
+    ('us', 'Αμερικανικά'),
+    ('al', 'Αλβανικά'),
+]
+
 DEST = Path(__file__).resolve().parents[1] / 'docs' / 'home.m3u'
 
 def download(code):
