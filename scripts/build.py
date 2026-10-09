@@ -40,6 +40,7 @@ EPG_IDS = {
     'ANT1Cyprus.cy@SD': 'ant1cy',
     'SigmaTV.cy@SD': 'sigma',
     'VouliTV.cy@SD': 'vouli',
+    'StarChannel.gr@SD': 'STAR.gr',
 }
 
 
