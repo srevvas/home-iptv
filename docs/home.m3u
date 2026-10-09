@@ -11,7 +11,7 @@ https://cdn.istoikona.com/aeolostv/live/playlist.m3u8
 https://fr.crystalweb.net:1936/aigaiotv/aigaiotv/playlist.m3u8
 #EXTINF:-1 tvg-id="AlertTV.gr@SD" tvg-logo="https://i.imgur.com/xqa87lG.png" group-title="Ελληνικά",Alert TV (576p) [Not 24/7]
 https://itv.streams.ovh/ALEERT/ALEERT/playlist.m3u8
-#EXTINF:-1 tvg-id="AlphaTV.gr@SD" tvg-logo="https://i.imgur.com/6twzd38.png" group-title="Ελληνικά",Alpha TV (1080p)
+#EXTINF:-1 tvg-id="alpha" tvg-logo="https://i.imgur.com/6twzd38.png" group-title="Ελληνικά",Alpha TV (1080p)
 https://alphatvlive2.siliconweb.com/alphatvlive/live_abr/playlist.m3u8
 #EXTINF:-1 tvg-id="ANT1.gr@SD" tvg-logo="https://i.imgur.com/ItxKvVS.png" http-referrer="http://watch.antennaplus.gr" http-user-agent="Chrome" group-title="Ελληνικά",ANT1 (1080p) [Geo-blocked]
 #EXTVLCOPT:http-referrer=http://watch.antennaplus.gr
