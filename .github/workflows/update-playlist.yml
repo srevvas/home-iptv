@@ -28,7 +28,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/home.m3u docs/epg.xml.gz
+          git add docs/home.m3u docs/epg.xml.gz docs/epg-fr.xml.gz
           if ! git diff --cached --quiet; then
             git commit -m "Update Home IPTV playlist"
             git push
