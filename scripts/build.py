@@ -93,7 +93,7 @@ def load_french_epg_lookup():
             if not channel_id or channel_id not in programme_ids:
                 continue
 
-            names = [channel_id]
+            names = [channel_id, channel_id.split('.', 1)[0]]
             names.extend(
                 n.text for n in channel.findall('display-name') if n.text
             )
