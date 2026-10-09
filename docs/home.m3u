@@ -177,15 +177,15 @@ https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8
 https://sl2.sigmatv.com/hls/live.m3u8
 #EXTINF:-1 tvg-id="vouli" tvg-logo="https://i.ibb.co/tzQ3jCR/cropped-VOULI-TV-LOGO-HIGH-RESOLUTION-BLUE.png" group-title="Κυπριακά",Vouli TV (1080p) [Not 24/7]
 https://dev.aftermind.xyz/edge-hls/unitrust/voulitv/index.m3u8?token=8TXWzhY3h6jrzqEqx
-#EXTINF:-1 tvg-id="6ter.fr@SD" tvg-logo="https://i.imgur.com/2nd5Cox.png" group-title="Γαλλικά",6ter (1080p)
+#EXTINF:-1 tvg-id="6ter.fr" tvg-logo="https://i.imgur.com/2nd5Cox.png" group-title="Γαλλικά",6ter (1080p)
 http://145.239.5.177/314/index.m3u8
 #EXTINF:-1 tvg-id="20MinutesTV.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/20_Minutes_TV_IDF_logo_%282023%29.png/960px-20_Minutes_TV_IDF_logo_%282023%29.png" group-title="Γαλλικά",20 Minutes TV (1080p)
 https://live-20minutestv.digiteka.com/1961167769/index.m3u8
-#EXTINF:-1 tvg-id="AB1.fr@SD" tvg-logo="https://i.imgur.com/9C7UsOe.png" group-title="Γαλλικά",AB1 (720p)
+#EXTINF:-1 tvg-id="AB1.fr" tvg-logo="https://i.imgur.com/9C7UsOe.png" group-title="Γαλλικά",AB1 (720p)
 http://145.239.5.177/332/index.m3u8
 #EXTINF:-1 tvg-id="ADNTVPlus.fr@SD" tvg-logo="https://i.imgur.com/HQZQyWt.png" group-title="Γαλλικά",ADN TV+ (720p)
 https://d3b73b34o7cvkq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gz2sgqzp076kf/adn.m3u8
-#EXTINF:-1 tvg-id="Africa24.fr@SD" tvg-logo="https://africa24tv.com/wp-content/uploads/2021/09/logo.png" group-title="Γαλλικά",Africa 24 (1080p)
+#EXTINF:-1 tvg-id="Africa24.fr" tvg-logo="https://africa24tv.com/wp-content/uploads/2021/09/logo.png" group-title="Γαλλικά",Africa 24 (1080p)
 https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
 #EXTINF:-1 tvg-id="Africa24English.fr@SD" tvg-logo="https://africa24tv.com/wp-content/uploads/2023/12/logo-Africa24TVEnglish.png" group-title="Γαλλικά",Africa 24 English (1080p)
 https://edge20.vedge.infomaniak.com/livecast/ik:africa24english/manifest.m3u8
@@ -197,44 +197,44 @@ https://jmp2.uk/plu-60afaa535580be0007ac9ee4.m3u8
 https://edge13.vedge.infomaniak.com/livecast/ik:adhtv/manifest.m3u8
 #EXTINF:-1 tvg-id="AntenneReunion.fr@SD" tvg-logo="https://i.imgur.com/EPIMMaB.png" group-title="Γαλλικά",Antenne Reunion (720p) [Not 24/7]
 https://live-antenne-reunion.zeop.tv/live/c3eds/antreunihd/hls_fta/antreunihd.m3u8?location=ZEOP01
-#EXTINF:-1 tvg-id="arte.fr@SD" tvg-logo="https://i.imgur.com/ecXMjNl.png" group-title="Γαλλικά",arte (France) (720p)
+#EXTINF:-1 tvg-id="Arte.fr" tvg-logo="https://i.imgur.com/ecXMjNl.png" group-title="Γαλλικά",arte (France) (720p)
 http://145.239.5.177/300/index.m3u8
-#EXTINF:-1 tvg-id="BFM2.fr@HD" tvg-logo="https://alloforfait.fr/wp-content/uploads/2024/03/logo-bfm2-300x200.jpg" group-title="Γαλλικά",BFM2 (1080p)
+#EXTINF:-1 tvg-id="BFM2.fr" tvg-logo="https://alloforfait.fr/wp-content/uploads/2024/03/logo-bfm2-300x200.jpg" group-title="Γαλλικά",BFM2 (1080p)
 https://d1ib1gsg71oarf.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-scp7wda722jph/BFM2_FR.m3u8
-#EXTINF:-1 tvg-id="BFMAlsace.fr@SD" tvg-logo="https://i.imgur.com/iRsbEpg.png" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="Γαλλικά",BFM Alsace (1080p)
+#EXTINF:-1 tvg-id="BFMALSACE.fr" tvg-logo="https://i.imgur.com/iRsbEpg.png" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="Γαλλικά",BFM Alsace (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_ALSACE/index.m3u8?end=END&start=LIVE
-#EXTINF:-1 tvg-id="BFMBusiness.fr@SD" tvg-logo="https://i.imgur.com/psqIHn4.png" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="Γαλλικά",BFM Business (1080p)
+#EXTINF:-1 tvg-id="BFMBusiness.fr" tvg-logo="https://i.imgur.com/psqIHn4.png" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="Γαλλικά",BFM Business (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_BUSINESS/index.m3u8?end=END&start=LIVE
 #EXTINF:-1 tvg-id="BFMCotedAzur.fr@SD" tvg-logo="https://i.imgur.com/iiVFvIw.png" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="Γαλλικά",BFM Cote d'Azur (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_NICECOTEDAZUR/index.m3u8?end=END&start=LIVE
-#EXTINF:-1 tvg-id="BFMDICIAlpesduSud.fr@SD" tvg-logo="https://i.imgur.com/bV77l68.png" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="Γαλλικά",BFM DICI Alpes du Sud (1080p)
+#EXTINF:-1 tvg-id="BFMDICIALPESDUSUD.fr" tvg-logo="https://i.imgur.com/bV77l68.png" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="Γαλλικά",BFM DICI Alpes du Sud (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_DICI_ALPESDUSUD/index.m3u8?end=END&start=LIVE
-#EXTINF:-1 tvg-id="BFMDICIHauteProvence.fr@SD" tvg-logo="https://i.imgur.com/bV77l68.png" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="Γαλλικά",BFM DICI Haute-Provence (1080p)
+#EXTINF:-1 tvg-id="BFMDICIHAUTE-PROVENCE.fr" tvg-logo="https://i.imgur.com/bV77l68.png" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="Γαλλικά",BFM DICI Haute-Provence (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_DICI_HAUTEPROVENCE/index.m3u8?end=END&start=LIVE
-#EXTINF:-1 tvg-id="BFMGrandLille.fr@SD" tvg-logo="https://i.imgur.com/HE5xP0r.png" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="Γαλλικά",BFM Grand Lille (1080p)
+#EXTINF:-1 tvg-id="BFMGrandLille.fr" tvg-logo="https://i.imgur.com/HE5xP0r.png" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="Γαλλικά",BFM Grand Lille (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFMGRANDLILLE/index.m3u8?end=END&start=LIVE
-#EXTINF:-1 tvg-id="BFMGrandLittoral.fr@SD" tvg-logo="https://i.imgur.com/j7F9MwH.png" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="Γαλλικά",BFM Grand Littoral (1080p)
+#EXTINF:-1 tvg-id="BFMGrandLittoral.fr" tvg-logo="https://i.imgur.com/j7F9MwH.png" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="Γαλλικά",BFM Grand Littoral (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFMGRANDLITTORAL/index.m3u8?end=END&start=LIVE
-#EXTINF:-1 tvg-id="BFMLyon.fr@SD" tvg-logo="https://i.imgur.com/0uiiZRo.png" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="Γαλλικά",BFM Lyon (1080p)
+#EXTINF:-1 tvg-id="BFMLyon.fr" tvg-logo="https://i.imgur.com/0uiiZRo.png" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="Γαλλικά",BFM Lyon (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_LYON/index.m3u8?end=END&start=LIVE
 #EXTINF:-1 tvg-id="BFMMarseille.fr@SD" tvg-logo="https://i.imgur.com/h7t0l6q.png" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="Γαλλικά",BFM Marseille (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_MARSEILLEPROV/index.m3u8?end=END&start=LIVE
-#EXTINF:-1 tvg-id="BFMNormandie.fr@SD" tvg-logo="https://i.imgur.com/WWWQ44G.png" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="Γαλλικά",BFM Normandie (1080p)
+#EXTINF:-1 tvg-id="BFMNORMANDIE.fr" tvg-logo="https://i.imgur.com/WWWQ44G.png" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="Γαλλικά",BFM Normandie (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_NORMANDIE/index.m3u8?end=END&start=LIVE
 #EXTINF:-1 tvg-id="BFMTechCo.fr@SD" tvg-logo="https://i.imgur.com/FQ0FpXV.png" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="Γαλλικά",BFM Tech & Co (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TECHANDCO/index.m3u8?end=END&start=LIVE
-#EXTINF:-1 tvg-id="BFMTV.fr@SD" tvg-logo="https://i.imgur.com/YJCcczD.png" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="Γαλλικά",BFM TV (1080p)
+#EXTINF:-1 tvg-id="BFMTV.fr" tvg-logo="https://i.imgur.com/YJCcczD.png" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="Γαλλικά",BFM TV (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TV/index.m3u8?end=END&start=LIVE
 #EXTINF:-1 tvg-id="BFMVar.fr@SD" tvg-logo="https://i.imgur.com/vp1oVj3.png" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" group-title="Γαλλικά",BFM Var (1080p)
@@ -242,11 +242,11 @@ https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TV/index.m3u8?end=END&start=LIVE
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TOULONVAR/index.m3u8?end=END&start=LIVE
 #EXTINF:-1 tvg-id="BrionnaisTV.fr@SD" tvg-logo="https://i.imgur.com/y94bhqX.jpg" group-title="Γαλλικά",Brionnais TV (720p)
 https://stream2.mandarine.media/brionnaistv/brionnaistv/playlist.m3u8
-#EXTINF:-1 tvg-id="CStar.fr@SD" tvg-logo="https://i.imgur.com/w4kAX1V.png" group-title="Γαλλικά",C Star (1080p)
+#EXTINF:-1 tvg-id="CStar.fr" tvg-logo="https://i.imgur.com/w4kAX1V.png" group-title="Γαλλικά",C Star (1080p)
 http://145.239.5.177/361/index.m3u8
 #EXTINF:-1 tvg-id="Caillou.fr@SD" tvg-logo="https://i.imgur.com/RgKaoe4.png" group-title="Γαλλικά",Caillou
 https://do7nccdsswstc.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1aso0bc668saa/a5233c83-f772-4a81-959a-45ec7877ef61/5.m3u8
-#EXTINF:-1 tvg-id="CanalPlus.fr@SD" tvg-logo="https://i.imgur.com/5HcyMnW.png" group-title="Γαλλικά",Canal+ (720p)
+#EXTINF:-1 tvg-id="CANAL+.fr" tvg-logo="https://i.imgur.com/5HcyMnW.png" group-title="Γαλλικά",Canal+ (720p)
 http://151.80.18.177:86/Canal+_HD/index.m3u8
 #EXTINF:-1 tvg-id="CanalPlusCinemas.fr@SD" tvg-logo="https://i.imgur.com/fvPoNEa.jpeg" group-title="Γαλλικά",Canal+ Cinemas (720p)
 http://151.80.18.177:86/Canal+_cinema_HD/index.m3u8
@@ -288,14 +288,14 @@ https://jmp2.uk/plu-65cca3e2ec452d0008af3a65.m3u8
 #EXTINF:-1 tvg-id="CinePlusClassic.fr@SD" tvg-logo="https://i.imgur.com/y2zeLS3.jpeg" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Γαλλικά",Cine+ Classic
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://99.27.51.147/CineClassic/index.m3u8
-#EXTINF:-1 tvg-id="CinePlusEmotion.fr@SD" tvg-logo="https://i.imgur.com/upYjPvc.jpeg" group-title="Γαλλικά",Cine+ Emotion (720p)
+#EXTINF:-1 tvg-id="Cine+Emotion.fr" tvg-logo="https://i.imgur.com/upYjPvc.jpeg" group-title="Γαλλικά",Cine+ Emotion (720p)
 http://145.239.5.177/337/index.m3u8
 #EXTINF:-1 tvg-id="CinePlusFrisson.fr@SD" tvg-logo="https://i.imgur.com/MwFtbnR.jpeg" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Γαλλικά",Cine+ Frisson (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://99.27.51.147:8080/CineFrisson/index.m3u8
 #EXTINF:-1 tvg-id="ClubbingTV.us@France" tvg-logo="https://i.imgur.com/MyiA92q.png" group-title="Γαλλικά",Clubbing TV France
 https://d1j2csarxnwazk.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-uze1m6xh4fiyr-ssai-prd/master.m3u8
-#EXTINF:-1 tvg-id="CNews.fr@SD" tvg-logo="https://i.imgur.com/sSNhk2g.png" group-title="Γαλλικά",CNews (1080p)
+#EXTINF:-1 tvg-id="CNews.fr" tvg-logo="https://i.imgur.com/sSNhk2g.png" group-title="Γαλλικά",CNews (1080p)
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnews-dm.m3u8
 #EXTINF:-1 tvg-id="CNEWSPRIME.fr@HD" tvg-logo="https://www.cnews.fr/themes/cnews/img/cnews-prime.png" group-title="Γαλλικά",CNEWS PRIME (1080p)
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnews-prime-dm.m3u8
@@ -309,7 +309,7 @@ http://151.80.18.177:86/Disney_Junior_HD/index.m3u8
 https://jmp2.uk/plu-5f8edad922b10b000753bc37.m3u8
 #EXTINF:-1 tvg-id="EmotionL.fr@SD" tvg-logo="https://i.imgur.com/MP34aaj.png" group-title="Γαλλικά",Emotion L (1080p)
 https://rakutenaa-zylo-emotional-rakuten-r1zkm.amagi.tv/playlist/rakutenAA-zylo-emotional-rakuten/playlist.m3u8
-#EXTINF:-1 tvg-id="Equidia.fr@SD" tvg-logo="https://i.imgur.com/QPpbRcZ.png" group-title="Γαλλικά",Equidia (1080p)
+#EXTINF:-1 tvg-id="Equidia.fr" tvg-logo="https://i.imgur.com/QPpbRcZ.png" group-title="Γαλλικά",Equidia (1080p)
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/live2.m3u8
 #EXTINF:-1 tvg-id="EuronewsFrench.fr@SD" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="Γαλλικά",Euronews French (720p)
 https://2f6c5bf4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c0ZyYW5jYWlzX0hMUw/playlist.m3u8
@@ -325,22 +325,22 @@ https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=67c0c39764ad6f7dab07a
 https://37b4c228.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWZyX0ZJRkFQbHVzRnJlbmNoX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-id="FootPlus.fr@SD" tvg-logo="https://i.imgur.com/qsLLyn4.png" group-title="Γαλλικά",Foot+
 http://145.239.5.177/556a/index.m3u8
-#EXTINF:-1 tvg-id="France3.fr@National" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/France_3_2018.svg/960px-France_3_2018.svg.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Γαλλικά",France 3
+#EXTINF:-1 tvg-id="France3.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/France_3_2018.svg/960px-France_3_2018.svg.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Γαλλικά",France 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://85.14.32.26:8800/udp/239.100.10.144:5000
-#EXTINF:-1 tvg-id="France3.fr@CotedAzur" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9c/France_3_Cote_d%27Azur_-_Logo_2018.svg" group-title="Γαλλικά",France 3 Cote d'Azur
+#EXTINF:-1 tvg-id="France3.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9c/France_3_Cote_d%27Azur_-_Logo_2018.svg" group-title="Γαλλικά",France 3 Cote d'Azur
 http://89.187.185.76:8080/France3/index.m3u8
 #EXTINF:-1 tvg-id="France3.fr@Lorraine" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/61/France_3_Lorraine_-_Logo_2018.svg" group-title="Γαλλικά",France 3 Lorraine (1080p)
 http://5.180.164.197:8080/FRANCE3/index.m3u8
-#EXTINF:-1 tvg-id="France4.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/960px-France_4_2018.svg.png" group-title="Γαλλικά",France 4
+#EXTINF:-1 tvg-id="France4.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/960px-France_4_2018.svg.png" group-title="Γαλλικά",France 4
 http://176.65.146.100:8047/play/a074/index.m3u8
-#EXTINF:-1 tvg-id="France4.fr@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/960px-France_4_2018.svg.png" group-title="Γαλλικά",France 4 HD (1080p)
+#EXTINF:-1 tvg-id="France4.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/960px-France_4_2018.svg.png" group-title="Γαλλικά",France 4 HD (1080p)
 https://sv1.data-stream.top/8c0a287e56a6e1843143904778be3775b4d3edd4fba4ffcc3f72638c7a71d4d4/hls/francetv4.m3u8
-#EXTINF:-1 tvg-id="France5.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/960px-France_5_2018.svg.png" group-title="Γαλλικά",France 5 (720p)
+#EXTINF:-1 tvg-id="France5.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/960px-France_5_2018.svg.png" group-title="Γαλλικά",France 5 (720p)
 http://145.239.5.177/305/index.m3u8
-#EXTINF:-1 tvg-id="France24.fr@French" tvg-logo="https://i.imgur.com/u8N6uoj.png" group-title="Γαλλικά",France 24 (1080p)
+#EXTINF:-1 tvg-id="France24.fr" tvg-logo="https://i.imgur.com/u8N6uoj.png" group-title="Γαλλικά",France 24 (1080p)
 https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_5000.m3u8
-#EXTINF:-1 tvg-id="Franceinfo.fr@SD" tvg-logo="https://i.imgur.com/eITXz6A.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36" group-title="Γαλλικά",Franceinfo (1080p)
+#EXTINF:-1 tvg-id="franceinfo:.fr" tvg-logo="https://i.imgur.com/eITXz6A.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36" group-title="Γαλλικά",Franceinfo (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/franceinfo.m3u8
 #EXTINF:-1 tvg-id="Francophonie24.fr@SD" tvg-logo="https://i.imgur.com/uM1v1sd.png" group-title="Γαλλικά",Francophonie24 (1080p)
@@ -351,16 +351,16 @@ https://d20oth1416y9a1.cloudfront.net/playlist/amg00711-zylofast-frequencenovela
 https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
 #EXTINF:-1 tvg-id="GolfPlus.fr@SD" tvg-logo="https://i.imgur.com/WHnddkg.png" group-title="Γαλλικά",Golf + (1080p) [Geo-blocked]
 http://tv.streambox.fr/live/testlivestream/testlivestream/49.m3u8
-#EXTINF:-1 tvg-id="Gong.fr@SD" tvg-logo="https://i.imgur.com/lA9UFMG.png" group-title="Γαλλικά",Gong (1080p)
+#EXTINF:-1 tvg-id="Gong.fr" tvg-logo="https://i.imgur.com/lA9UFMG.png" group-title="Γαλλικά",Gong (1080p)
 https://amg01596-gongnetworks-gong-ono-vh5f2.amagi.tv/1080p-vtt/index.m3u8
-#EXTINF:-1 tvg-id="Gulli.fr@SD" tvg-logo="https://i.imgur.com/kqYssbW.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Γαλλικά",Gulli
+#EXTINF:-1 tvg-id="Gulli.fr" tvg-logo="https://i.imgur.com/kqYssbW.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Γαλλικά",Gulli
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://99.27.51.147:8080/Gulli/index.m3u8
 #EXTINF:-1 tvg-id="HANDICAPTV.fr@SD" tvg-logo="https://i.imgur.com/vXbAeD0.png" group-title="Γαλλικά",HANDICAP TV
 https://srv.webtvmanager.fr:3697/stream/play.m3u8
 #EXTINF:-1 tvg-id="Heleneetlesgarcons.us@France" tvg-logo="https://i.imgur.com/EjjzjF9.png" group-title="Γαλλικά",Helene et les garcons
 https://jmp2.uk/plu-604f8de01b479400078fb1e7.m3u8
-#EXTINF:-1 tvg-id="ILTV.fr@SD" tvg-logo="https://i.imgur.com/fVhrJHK.png" group-title="Γαλλικά",ILTV (720p)
+#EXTINF:-1 tvg-id="ILTV.fr" tvg-logo="https://i.imgur.com/fVhrJHK.png" group-title="Γαλλικά",ILTV (720p)
 https://live.creacast.com/iltv/smil:iltv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="InazumaEleven.us@France" tvg-logo="https://i.imgur.com/pLv0T3D.png" group-title="Γαλλικά",Inazuma Eleven
 https://jmp2.uk/plu-632c6df43d2bc5000751f621.m3u8
@@ -370,11 +370,11 @@ https://amg00711-zylo-amg00711c10-rakuten-fr-6731.playouts.now.amagi.tv/playlist
 https://jmp2.uk/plu-6683cd2fca74680008772545.m3u8
 #EXTINF:-1 tvg-id="KozoomTV.fr@SD" tvg-logo="https://i.imgur.com/M1Ee79b.png" group-title="Γαλλικά",Kozoom TV (1080p)
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/fdd6f243-f971-4a1a-9510-97ac01d6b37f/manifest.m3u8
-#EXTINF:-1 tvg-id="KTO.fr@SD" tvg-logo="https://i.imgur.com/EY6TsdV.png" group-title="Γαλλικά",KTO (504p)
+#EXTINF:-1 tvg-id="KTO.fr" tvg-logo="https://i.imgur.com/EY6TsdV.png" group-title="Γαλλικά",KTO (504p)
 http://145.239.5.177/354/index.m3u8
-#EXTINF:-1 tvg-id="LCI.fr@HD" tvg-logo="https://i.imgur.com/DED8EXs.png" group-title="Γαλλικά",LCI HD (1080p)
+#EXTINF:-1 tvg-id="LCI.fr" tvg-logo="https://i.imgur.com/DED8EXs.png" group-title="Γαλλικά",LCI HD (1080p)
 http://145.239.5.177/368/index.m3u8
-#EXTINF:-1 tvg-id="LCP.fr@SD" tvg-logo="https://i.imgur.com/k7UImOJ.png" group-title="Γαλλικά",LCP (477p)
+#EXTINF:-1 tvg-id="LCP.fr" tvg-logo="https://i.imgur.com/k7UImOJ.png" group-title="Γαλλικά",LCP (477p)
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/publicsenat/publicsenat-dm.m3u8
 #EXTINF:-1 tvg-id="LeFigaroTVIledeFrance.fr@SD" tvg-logo="https://i.imgur.com/a8RuRUQ.png" group-title="Γαλλικά",Le Figaro TV Ile-de-France (1080p)
 https://figarotv-live.freecaster.com/live/freecaster/figarotv.m3u8
@@ -390,18 +390,18 @@ https://jmp2.uk/plu-5f8edb6df1ebb800072edf10.m3u8
 https://live.creacast.com/littoralfm-ch1/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="LouisLaBrocante.us@France" tvg-logo="https://i.imgur.com/I1w7rFb.png" group-title="Γαλλικά",Louis La Brocante
 https://jmp2.uk/plu-5f8ed6d569d2d4000864a976.m3u8
-#EXTINF:-1 tvg-id="M6.fr@HD" tvg-logo="https://i.imgur.com/7GVp3fW.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Γαλλικά",M6 HD (1080p)
+#EXTINF:-1 tvg-id="M6.fr" tvg-logo="https://i.imgur.com/7GVp3fW.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Γαλλικά",M6 HD (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://99.27.51.147:8080/M6/index.m3u8
-#EXTINF:-1 tvg-id="M6Music.fr@SD" tvg-logo="" group-title="Γαλλικά",M6 Music (720p)
+#EXTINF:-1 tvg-id="M6Music.fr" tvg-logo="" group-title="Γαλλικά",M6 Music (720p)
 http://145.239.5.177/320/index.m3u8
 #EXTINF:-1 tvg-id="MCMPop.fr@SD" tvg-logo="https://i.imgur.com/j31lBL7.png" group-title="Γαλλικά",MCM Pop (580p)
 http://188.115.15.121:8000/play/a014
 #EXTINF:-1 tvg-id="MDL.fr@SD" tvg-logo="https://i.imgur.com/REN30bx.png" group-title="Γαλλικά",MDL (720p)
 http://tv.mondeduloisir.fr:1935/tixtv/smil:web.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Mezzo.fr@SD" tvg-logo="https://i.imgur.com/auNdGeW.png" group-title="Γαλλικά",Mezzo (1080p)
+#EXTINF:-1 tvg-id="Mezzo.fr" tvg-logo="https://i.imgur.com/auNdGeW.png" group-title="Γαλλικά",Mezzo (1080p)
 http://str2.iptvhd.ru:8080/Mezzo_HD/index.m3u8
-#EXTINF:-1 tvg-id="MezzoLive.fr@SD" tvg-logo="https://i.imgur.com/H9ytKPN.png" group-title="Γαλλικά",Mezzo Live (1080p)
+#EXTINF:-1 tvg-id="MezzoLive.fr" tvg-logo="https://i.imgur.com/H9ytKPN.png" group-title="Γαλλικά",Mezzo Live (1080p)
 http://stream.mcquack.net/276/index.m3u8
 #EXTINF:-1 tvg-id="MonteCarloDigitalTelevision.fr@HD" tvg-logo="https://i.imgur.com/99h8F1y.jpeg" group-title="Γαλλικά",Monte Carlo Digital Television (1080p)
 https://fl718492-exthls-p1.flovp.com/fl718492/live/live.m3u8
@@ -409,30 +409,30 @@ https://fl718492-exthls-p1.flovp.com/fl718492/live/live.m3u8
 https://live.creacast.com/mirabelletv/smil:mirabelletv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="MrBeanAnimated.uk@FR" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/Mr._Bean_Animated_Series_stacked_logo.png" group-title="Γαλλικά",Mr Bean Animated FR (1080p)
 https://amg00627-amg00627c31-rakuten-fr-3991.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanfrcc-rakutenfr/playlist.m3u8
-#EXTINF:-1 tvg-id="MTV.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Γαλλικά",MTV (France)
+#EXTINF:-1 tvg-id="MTV.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Γαλλικά",MTV (France)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://99.27.51.147:8080/MTV/index.m3u8
 #EXTINF:-1 tvg-id="MTVCLASSICS.de@FR" tvg-logo="https://images.pluto.tv/channels/5f92b56a367e170007cd43f4/colorLogoPNG.png" group-title="Γαλλικά",MTV CLASSICS
 https://jmp2.uk/plu-5f92b56a367e170007cd43f4.m3u8
 #EXTINF:-1 tvg-id="MuseumTVFrench.fr@SD" tvg-logo="https://i.imgur.com/WbjURLo.png" group-title="Γαλλικά",Museum TV French [Geo-blocked]
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01492-secomsasmediart-museumtv-eng-samsungit/playlist.m3u8
-#EXTINF:-1 tvg-id="MyZenTV.fr@SD" tvg-logo="https://i.imgur.com/fIi8o0C.png" group-title="Γαλλικά",MyZen TV (1080p)
+#EXTINF:-1 tvg-id="MyZentv.fr" tvg-logo="https://i.imgur.com/fIi8o0C.png" group-title="Γαλλικά",MyZen TV (1080p)
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8
 #EXTINF:-1 tvg-id="NatureTime.ca@France" tvg-logo="https://i.imgur.com/72JmyjM.png" group-title="Γαλλικά",NatureTime France (1080p)
 https://bamusa-naturetime-emea-fra-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="NickelodeonJunior.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Nickelodeon_Junior.png/960px-Nickelodeon_Junior.png" group-title="Γαλλικά",Nickelodeon Junior (1080p)
+#EXTINF:-1 tvg-id="NickelodeonJunior.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Nickelodeon_Junior.png/960px-Nickelodeon_Junior.png" group-title="Γαλλικά",Nickelodeon Junior (1080p)
 http://151.80.18.177:86/Nickelodeon_Junior/index.m3u8
 #EXTINF:-1 tvg-id="Nicktoons.fr@SD" tvg-logo="https://i.imgur.com/OWRUPA4.png" group-title="Γαλλικά",Nicktoons (France) (1080p)
 http://193.254.245.162/NICKELODEON/index.m3u8
-#EXTINF:-1 tvg-id="NollywoodTV.fr@SD" tvg-logo="https://i.imgur.com/29L2gbb.png" group-title="Γαλλικά",Nollywood TV (720p)
+#EXTINF:-1 tvg-id="NollywoodTV.fr" tvg-logo="https://i.imgur.com/29L2gbb.png" group-title="Γαλλικά",Nollywood TV (720p)
 http://145.239.5.177/148/index.m3u8
-#EXTINF:-1 tvg-id="NRJHits.fr@SD" tvg-logo="https://i.imgur.com/2xDVwOh.png" group-title="Γαλλικά",NRJ Hits
+#EXTINF:-1 tvg-id="NRJHits.fr" tvg-logo="https://i.imgur.com/2xDVwOh.png" group-title="Γαλλικά",NRJ Hits
 https://test.946985.filegear-sg.me/proxy/a23981548880f405
 #EXTINF:-1 tvg-id="OnePiece.us@FR" tvg-logo="https://i.imgur.com/XsvbAWR.png" group-title="Γαλλικά",One Piece FR
 https://jmp2.uk/plu-6380c94947c72b0007ee9a13.m3u8
 #EXTINF:-1 tvg-id="P2MTV.fr@SD" tvg-logo="https://i.imgur.com/TrecSeG.png" group-title="Γαλλικά",P2M TV (720p)
 https://vdo2.pro-fhi.net:3207/stream/play.m3u8
-#EXTINF:-1 tvg-id="ParisPremiere.fr@SD" tvg-logo="https://i.imgur.com/ily4bEm.png" group-title="Γαλλικά",Paris Premiere (720p)
+#EXTINF:-1 tvg-id="ParisPremiere.fr" tvg-logo="https://i.imgur.com/ily4bEm.png" group-title="Γαλλικά",Paris Premiere (720p)
 http://193.254.245.162/PARIS-PREMIERE/index.m3u8
 #EXTINF:-1 tvg-id="PlutoTV90sClassics.de@FR" tvg-logo="https://images.pluto.tv/channels/66b4990746762a00084c2f78/colorLogoPNG.png" group-title="Γαλλικά",Pluto TV 90's Classics
 https://jmp2.uk/plu-66b4990746762a00084c2f78.m3u8
@@ -486,26 +486,26 @@ https://jmp2.uk/plu-5f8eba14a4ffb8000764e950.m3u8
 https://event.vedge.infomaniak.com/livecast/ik:puissancetelevision/manifest.m3u8
 #EXTINF:-1 tvg-id="QwestTVJazzBeyond.fr@SD" tvg-logo="https://i.imgur.com/89yWH5L.png" group-title="Γαλλικά",Qwest TV Jazz & Beyond (1080p)
 https://samsungau-qwestjazz-samsungtv-zw2jc.amagi.tv/playlist/samsungau-qwestjazz-samsungtv/playlist.m3u8
-#EXTINF:-1 tvg-id="RFMTV.fr@SD" tvg-logo="https://i.imgur.com/FVDTJxW.png" group-title="Γαλλικά",RFM TV [Not 24/7]
+#EXTINF:-1 tvg-id="RFMTV.fr" tvg-logo="https://i.imgur.com/FVDTJxW.png" group-title="Γαλλικά",RFM TV [Not 24/7]
 http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/1038/index.m3u8
 #EXTINF:-1 tvg-id="Ridiculousness.de@FR" tvg-logo="https://images.pluto.tv/channels/5f8eb8a8b2619a000710605c/colorLogoPNG.png" group-title="Γαλλικά",Ridiculousness (Germany) (720p)
 https://jmp2.uk/plu-5f8eb8a8b2619a000710605c.m3u8
 #EXTINF:-1 tvg-id="RMCLife.fr@SD" tvg-logo="https://img1.dc2.oqee.net/channel_pictures/3606/w512" group-title="Γαλλικά",RMC Life (1080p)
 http://145.239.5.177/333/index.m3u8
-#EXTINF:-1 tvg-id="RMCSport1.fr@SD" tvg-logo="https://i.imgur.com/NsFTG7u.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21" group-title="Γαλλικά",RMC Sport 1
+#EXTINF:-1 tvg-id="RMCSport1.fr" tvg-logo="https://i.imgur.com/NsFTG7u.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21" group-title="Γαλλικά",RMC Sport 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21
 https://7nyaler.streamhostingcdn.top/stream/59/index.m3u8
-#EXTINF:-1 tvg-id="RMCStory.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/4/43/Logo_RMC_Story_2025.png/960px-Logo_RMC_Story_2025.png" group-title="Γαλλικά",RMC Story (1080p)
+#EXTINF:-1 tvg-id="RMCSTORY.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/4/43/Logo_RMC_Story_2025.png/960px-Logo_RMC_Story_2025.png" group-title="Γαλλικά",RMC Story (1080p)
 https://d15aro46bnpfm8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-fqkqiax1078up/RMC_Story_FR.m3u8
-#EXTINF:-1 tvg-id="RTFrance.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/RT-France-logo.svg/960px-RT-France-logo.svg.png" group-title="Γαλλικά",RT France (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="RTFRANCE.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/RT-France-logo.svg/960px-RT-France-logo.svg.png" group-title="Γαλλικά",RT France (1080p) [Geo-blocked]
 https://rt-fra.rttv.com/dvr/rtfrance/playlist.m3u8
-#EXTINF:-1 tvg-id="RTL9.lu@SD" tvg-logo="https://i.imgur.com/nFqjVNW.png" group-title="Γαλλικά",RTL9 (720p)
+#EXTINF:-1 tvg-id="RTL9.fr" tvg-logo="https://i.imgur.com/nFqjVNW.png" group-title="Γαλλικά",RTL9 (720p)
 http://145.239.5.177/308/index.m3u8
 #EXTINF:-1 tvg-id="SciFi.fr@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d1/SciFi_2026.svg" group-title="Γαλλικά",SciFi (720p)
 http://41.205.93.154/SYFY/index.m3u8
 #EXTINF:-1 tvg-id="ScreamIN.fr@SD" tvg-logo="https://i.imgur.com/tGmKbil.png" group-title="Γαλλικά",ScreamIN (1080p)
 https://rakutenaa-zylo-screamin-rakuten-p11ej.amagi.tv/playlist/rakutenAA-zylo-screamin-rakuten/playlist.m3u8
-#EXTINF:-1 tvg-id="SerieClub.fr@SD" tvg-logo="https://i.imgur.com/V8wRRg5.png" group-title="Γαλλικά",Serie Club (720p)
+#EXTINF:-1 tvg-id="SERIECLUB.fr" tvg-logo="https://i.imgur.com/V8wRRg5.png" group-title="Γαλλικά",Serie Club (720p)
 http://145.239.5.177/355/index.m3u8
 #EXTINF:-1 tvg-id="SeriesbyPlutoTV.de@FR" tvg-logo="https://images.pluto.tv/channels/5f8ed2d1c34c2300073bf02c/colorLogoPNG_1775048963457.png" group-title="Γαλλικά",Series by Pluto TV
 https://jmp2.uk/plu-5f8ed2d1c34c2300073bf02c.m3u8
@@ -517,36 +517,36 @@ https://49d735318d6b4c30a24a7997ea594e1b.mediatailor.us-west-2.amazonaws.com/v1/
 https://5098a8b860504a3690fd2e7c0a18d68f.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-817-FR-SONYONEHITSACTION-LG_FR/playlist.m3u8
 #EXTINF:-1 tvg-id="SonyOneHitsComedie.fr@HD" tvg-logo="https://i.imgur.com/8sHuxxS.png" group-title="Γαλλικά",Sony One Hits Comedie (1080p)
 https://7aa9671895264ec9a384dfed1b992171.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-818-FR-SONYONEHITSCOMDIE-LG_FR/playlist.m3u8
-#EXTINF:-1 tvg-id="Syfy.fr@SD" tvg-logo="https://i.imgur.com/gUOXdjv.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Γαλλικά",Syfy
+#EXTINF:-1 tvg-id="Syfy.fr" tvg-logo="https://i.imgur.com/gUOXdjv.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Γαλλικά",Syfy
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://99.27.51.147:8080/SYFY/index.m3u8
-#EXTINF:-1 tvg-id="T18.fr@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Logo_de_la_chaine_T18.svg/500px-Logo_de_la_chaine_T18.svg.png" group-title="Γαλλικά",T18 (1080p)
+#EXTINF:-1 tvg-id="T18.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Logo_de_la_chaine_T18.svg/500px-Logo_de_la_chaine_T18.svg.png" group-title="Γαλλικά",T18 (1080p)
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/t18/t18-dm.m3u8
 #EXTINF:-1 tvg-id="TeenMom.de@FR" tvg-logo="https://images.pluto.tv/channels/62e7fc8c0d061100083946a9/colorLogoPNG.png" group-title="Γαλλικά",Teen Mom (Germany) FR (720p)
 https://jmp2.uk/plu-62f3f05505e621000783df2f.m3u8
-#EXTINF:-1 tvg-id="TeleGohelle.fr@SD" tvg-logo="https://i.imgur.com/Oa3Pwbf.png" group-title="Γαλλικά",TeleGohelle
+#EXTINF:-1 tvg-id="TELEGOHELLE.fr" tvg-logo="https://i.imgur.com/Oa3Pwbf.png" group-title="Γαλλικά",TeleGohelle
 https://videas.agglo-lenslievin.fr/index.m3u8
-#EXTINF:-1 tvg-id="Teva.fr@SD" tvg-logo="https://i.imgur.com/kDW0hN5.png" group-title="Γαλλικά",Teva (1080p)
+#EXTINF:-1 tvg-id="Teva.fr" tvg-logo="https://i.imgur.com/kDW0hN5.png" group-title="Γαλλικά",Teva (1080p)
 http://145.239.5.177/356/index.m3u8
-#EXTINF:-1 tvg-id="TF1.fr@SD" tvg-logo="https://i.imgur.com/QxHt9NC.png" group-title="Γαλλικά",TF1 (1080p)
+#EXTINF:-1 tvg-id="TF1.fr" tvg-logo="https://i.imgur.com/QxHt9NC.png" group-title="Γαλλικά",TF1 (1080p)
 http://str2.iptvhd.ru:8080/TF1/index.m3u8
-#EXTINF:-1 tvg-id="TF1.fr@HD" tvg-logo="https://i.imgur.com/QxHt9NC.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Γαλλικά",TF1 HD (720p)
+#EXTINF:-1 tvg-id="TF1.fr" tvg-logo="https://i.imgur.com/QxHt9NC.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Γαλλικά",TF1 HD (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://151.80.18.177:86/TF1_HD/index.m3u8
-#EXTINF:-1 tvg-id="TFX.fr@SD" tvg-logo="https://i.imgur.com/d91GcVf.png" group-title="Γαλλικά",TFX (720p)
+#EXTINF:-1 tvg-id="TFX.fr" tvg-logo="https://i.imgur.com/d91GcVf.png" group-title="Γαλλικά",TFX (720p)
 http://145.239.5.177/315/index.m3u8
 #EXTINF:-1 tvg-id="TiVi5Monde.fr@SD" tvg-logo="https://i.imgur.com/fVVKpmk.png" group-title="Γαλλικά",TiVi5 Monde [Geo-blocked]
 https://ott.tv5monde.com/Content/HLS/Live/channel(tivi5)/variant.m3u8
-#EXTINF:-1 tvg-id="TMC.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/54/TMC_logo.svg/960px-TMC_logo.svg.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Γαλλικά",TMC (1080p)
+#EXTINF:-1 tvg-id="TMC.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/54/TMC_logo.svg/960px-TMC_logo.svg.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Γαλλικά",TMC (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://151.80.18.177:86/TMC/index.m3u8
-#EXTINF:-1 tvg-id="TMC.fr@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/54/TMC_logo.svg/960px-TMC_logo.svg.png" group-title="Γαλλικά",TMC HD (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="TMC.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/54/TMC_logo.svg/960px-TMC_logo.svg.png" group-title="Γαλλικά",TMC HD (1080p) [Geo-blocked]
 http://tv.streambox.fr/live/testlivestream/testlivestream/13.m3u8
 #EXTINF:-1 tvg-id="TortuesNinjaTV.de@FR" tvg-logo="https://images.pluto.tv/channels/5f8ecc1b37867f00071469e9/colorLogoPNG.png" group-title="Γαλλικά",Tortues Ninja TV (Germany) (720p)
 https://jmp2.uk/plu-5f8ecc1b37867f00071469e9.m3u8
 #EXTINF:-1 tvg-id="ToutlemondedetesteChris.de@FR" tvg-logo="https://images.pluto.tv/channels/67b4b4a21a5ca760802d25fd/colorLogoPNG_1747394750060.png" group-title="Γαλλικά",Tout le monde deteste Chris
 https://jmp2.uk/plu-67b4b4a21a5ca760802d25fd.m3u8
-#EXTINF:-1 tvg-id="TraceAfrica.fr@SD" tvg-logo="https://i.imgur.com/kPUkoS7.png" group-title="Γαλλικά",Trace Africa (1080p)
+#EXTINF:-1 tvg-id="TraceAfrica.fr" tvg-logo="https://i.imgur.com/kPUkoS7.png" group-title="Γαλλικά",Trace Africa (1080p)
 https://channels.trace.plus/Traceprod/AFRICA_FR_hd/index.m3u8
 #EXTINF:-1 tvg-id="TraceAfrikora.fr@SD" tvg-logo="https://i.imgur.com/CQDdnhp.png" group-title="Γαλλικά",Trace Afrikora (1080p)
 https://channels.trace.plus/Traceprod/TERANGA_hd/index.m3u8
@@ -556,9 +556,9 @@ https://channels.trace.plus/Traceprod/AYITI_hd/index.m3u8
 https://amg01131-tracetv-amg01131c4-stirr-us-4390.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TraceBrazuca.fr@HD" tvg-logo="https://i.imgur.com/DFBocPu.png" group-title="Γαλλικά",Trace Brazuca HD (1080p)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-samsungbr/playlist.m3u8
-#EXTINF:-1 tvg-id="TraceCaribbean.fr@SD" tvg-logo="https://i.imgur.com/ZHD7Vxy.png" group-title="Γαλλικά",Trace Caribbean (1080p)
+#EXTINF:-1 tvg-id="TRACECARIBBEAN.fr" tvg-logo="https://i.imgur.com/ZHD7Vxy.png" group-title="Γαλλικά",Trace Caribbean (1080p)
 https://channels.trace.plus/Traceprod/CARIBBEAN_hd/index.m3u8
-#EXTINF:-1 tvg-id="TraceGospel.fr@SD" tvg-logo="https://i.imgur.com/X0UmU3K.png" group-title="Γαλλικά",Trace Gospel (1080p)
+#EXTINF:-1 tvg-id="TraceGospel.fr" tvg-logo="https://i.imgur.com/X0UmU3K.png" group-title="Γαλλικά",Trace Gospel (1080p)
 https://channels.trace.plus/Traceprod/GOSPEL_FR_hd/index.m3u8
 #EXTINF:-1 tvg-id="TraceJama.fr@SD" tvg-logo="https://i.imgur.com/pthX34m.png" group-title="Γαλλικά",Trace Jama (1080p)
 https://channels.trace.plus/Traceprod/JAMA_hd/index.m3u8
@@ -574,11 +574,11 @@ https://channels.trace.plus/Traceprod/MUZIKA_hd/index.m3u8
 https://channels.trace.plus/Traceprod/MZIKI_hd/index.m3u8
 #EXTINF:-1 tvg-id="TraceNaija.fr@SD" tvg-logo="https://i.imgur.com/Rguekcp.png" group-title="Γαλλικά",Trace Naija (1080p)
 https://channels.trace.plus/Traceprod/NAIJA_hd/index.m3u8
-#EXTINF:-1 tvg-id="TraceSportStars.fr@HD" tvg-logo="https://i.imgur.com/FabFP5A.png" group-title="Γαλλικά",Trace Sport Stars (1080p)
+#EXTINF:-1 tvg-id="TRACESportStars.fr" tvg-logo="https://i.imgur.com/FabFP5A.png" group-title="Γαλλικά",Trace Sport Stars (1080p)
 https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TraceUrban.fr@SD" tvg-logo="https://i.imgur.com/DLIbUMx.png" group-title="Γαλλικά",Trace Urban (1080p)
+#EXTINF:-1 tvg-id="TraceUrban.fr" tvg-logo="https://i.imgur.com/DLIbUMx.png" group-title="Γαλλικά",Trace Urban (1080p)
 https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TraceUrban.fr@HD" tvg-logo="https://i.imgur.com/DLIbUMx.png" group-title="Γαλλικά",Trace Urban HD (1080p)
+#EXTINF:-1 tvg-id="TraceUrban.fr" tvg-logo="https://i.imgur.com/DLIbUMx.png" group-title="Γαλλικά",Trace Urban HD (1080p)
 https://channels.trace.plus/Traceprod/URBAN_FR_hd/index.m3u8
 #EXTINF:-1 tvg-id="TraceVanillaIslands.fr@SD" tvg-logo="https://i.imgur.com/ngF58fe.png" group-title="Γαλλικά",Trace Vanilla Islands (1080p)
 https://channels.trace.plus/Traceprod/VANILLA_hd/index.m3u8
@@ -596,13 +596,13 @@ https://ott.tv5monde.com/Content/HLS/Live/channel(info)/variant.m3u8
 http://103.190.232.129/stream/tvb/style/master.m3u8?p=967e33767f592e1aaf3d4019f38f380bf784e113b193d89c412d047059d6300d&u=Oleg
 #EXTINF:-1 tvg-id="TV7Colmar.fr@SD" tvg-logo="https://i.imgur.com/kSdGi43.png" group-title="Γαλλικά",TV7 Colmar (576p)
 https://tv7.live-kd.com/live/tv7/livestream/playlist.m3u8
-#EXTINF:-1 tvg-id="TV78.fr@SD" tvg-logo="https://i.imgur.com/stzE1Ij.png" group-title="Γαλλικά",TV78 (720p)
+#EXTINF:-1 tvg-id="TV78.fr" tvg-logo="https://i.imgur.com/stzE1Ij.png" group-title="Γαλλικά",TV78 (720p)
 https://streamtv.cdn.dvmr.fr/TV78/ngrp:tv78.stream_all/master.m3u8
 #EXTINF:-1 tvg-id="TVAlsace.fr@HD" tvg-logo="https://academie.kasumay.international/ico/radioalsace.png" group-title="Γαλλικά",TV Alsace (1080p)
 http://194.163.157.137:8080/hls/radioalsace.m3u8
-#EXTINF:-1 tvg-id="TVBreizh.fr@SD" tvg-logo="https://i.imgur.com/O8W4yhn.png" group-title="Γαλλικά",TV Breizh (1080p)
+#EXTINF:-1 tvg-id="TVBreizh.fr" tvg-logo="https://i.imgur.com/O8W4yhn.png" group-title="Γαλλικά",TV Breizh (1080p)
 http://145.239.5.177/318/index.m3u8
-#EXTINF:-1 tvg-id="TVMonaco.mc@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/TVMonaco_2023.svg/960px-TVMonaco_2023.svg.png" group-title="Γαλλικά",TV Monaco (1080p)
+#EXTINF:-1 tvg-id="TVMonaco.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/TVMonaco_2023.svg/960px-TVMonaco_2023.svg.png" group-title="Γαλλικά",TV Monaco (1080p)
 https://production-fast-mcrtv.content.okast.tv/channels/2116dc08-1959-465d-857f-3619daefb66b/b702b2b9-aebd-436c-be69-2118f56f3d86/master.m3u8
 #EXTINF:-1 tvg-id="TVMulhouse.fr@HD" tvg-logo="https://academie.kasumay.international/ico/radiomulhouse.png" group-title="Γαλλικά",TV Mulhouse (1080p)
 http://194.163.157.137:8080/hls/radiomulhouse.m3u8
@@ -620,7 +620,7 @@ https://srv.webtvmanager.fr:3970/live/viatelepaeselive.m3u8
 https://vosgestv.live-kd.com/live/vosgestv/vosgestv/playlist.m3u8
 #EXTINF:-1 tvg-id="VoyagesSaveurs.es@FR" tvg-logo="https://images.pluto.tv/channels/680291e38e1ff89c2427aefd/colorLogoPNG_1749650211442.png" group-title="Γαλλικά",Voyages & Saveurs (720p)
 https://jmp2.uk/plu-680291e38e1ff89c2427aefd.m3u8
-#EXTINF:-1 tvg-id="W9.fr@SD" tvg-logo="https://i.imgur.com/reYeMuE.png" group-title="Γαλλικά",W9 (1086p)
+#EXTINF:-1 tvg-id="W9.fr" tvg-logo="https://i.imgur.com/reYeMuE.png" group-title="Γαλλικά",W9 (1086p)
 http://5.180.164.197:8080/W9/index.m3u8
 #EXTINF:-1 tvg-id="WalkerTexasRanger.us@France" tvg-logo="https://i.imgur.com/0N7EhuD.png" group-title="Γαλλικά",Walker Texas Ranger
 https://jmp2.uk/plu-635659445b4c4700076d2ad1.m3u8
