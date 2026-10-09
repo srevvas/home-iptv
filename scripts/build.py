@@ -51,7 +51,7 @@ def main():
         count = 0
         for metadata, stream in entries(source):
             extinf = metadata[0]
-                for old_id, new_id in EPG_IDS.items():
+            for old_id, new_id in EPG_IDS.items():
                 extinf = extinf.replace(
                     f'tvg-id="{old_id}"',
                     f'tvg-id="{new_id}"'
