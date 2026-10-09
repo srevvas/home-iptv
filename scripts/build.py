@@ -12,6 +12,8 @@ EPG_URLS = [
     'https://ext.greektv.app/epg/epg.xml.gz',
     'https://iptv-epg.org/files/epg-gr.xml',
 ]
+FR_EPG_URL = 'https://iptv-epg.org/files/epg-fr.xml.gz'
+FR_EPG_DEST = 'epg-fr.xml.gz'
 PUBLIC_EPG_URL = 'https://srevvas.github.io/home-iptv/epg.xml.gz'
 COUNTRIES = [
     ('gr', 'Ελληνικά'), ('cy', 'Κυπριακά'), ('fr', 'Γαλλικά'),
@@ -21,6 +23,7 @@ COUNTRIES = [
 DOCS = Path(__file__).resolve().parents[1] / 'docs'
 DEST = DOCS / 'home.m3u'
 EPG_DEST = DOCS / 'epg.xml.gz'
+FR_EPG_PATH = DOCS / FR_EPG_DEST
 
 # Explicitly verified matches override automatic name matching.
 EPG_IDS = {
@@ -51,12 +54,73 @@ def fetch(url):
     with urlopen(req, timeout=90) as response:
         return response.read()
 
+def save_french_epg():
+    """Download the French EPG into docs."""
+    try:
+        data = fetch(FR_EPG_URL)
+        if not data.startswith(b'\x1f\x8b'):
+            data = gzip.compress(data, compresslevel=6)
+
+        root = ET.fromstring(gzip.decompress(data))
+        if root.tag != 'tv':
+            raise ValueError('Invalid French EPG')
+
+        DOCS.mkdir(parents=True, exist_ok=True)
+        FR_EPG_PATH.write_bytes(data)
+        print(f'French EPG saved: {FR_EPG_PATH} | '
+              f'{len(root.findall("channel"))} channels')
+    except Exception as exc:
+        print(f'WARNING: French EPG update failed: {exc}')
+
+def load_french_epg_lookup():
+    """Build a lookup table for French EPG channels."""
+    try:
+        data = FR_EPG_PATH.read_bytes()
+        if data.startswith(b'\x1f\x8b'):
+            data = gzip.decompress(data)
+
+        root = ET.fromstring(data)
+        lookup = {}
+        ambiguous = set()
+        programme_ids = {
+            p.get('channel')
+            for p in root.findall('programme')
+            if p.get('channel')
+        }
+
+        for channel in root.findall('channel'):
+            channel_id = channel.get('id')
+            if not channel_id or channel_id not in programme_ids:
+                continue
+
+            names = [channel_id]
+            names.extend(
+                n.text for n in channel.findall('display-name') if n.text
+            )
+
+            for name in names:
+                key = normalize(name)
+                if not key:
+                    continue
+                if key in lookup and lookup[key] != channel_id:
+                    ambiguous.add(key)
+                else:
+                    lookup[key] = channel_id
+
+        for key in ambiguous:
+            lookup.pop(key, None)
+
+        print(f'French EPG lookup: {len(lookup)} keys')
+        return lookup, programme_ids
+
+    except Exception as exc:
+        print(f'WARNING: French EPG lookup unavailable: {exc}')
+        return {}, set()
 
 def normalize(value):
     value = unicodedata.normalize('NFKD', value)
     value = ''.join(c for c in value if not unicodedata.combining(c))
     return re.sub(r'[^a-z0-9]+', '', value.casefold())
-
 
 def load_epg():
     """Merge XMLTV files; first source wins for duplicate channel IDs."""
@@ -155,8 +219,10 @@ def entries(text):
 
 
 def main():
+    save_french_epg()
     lookup, programme_ids = load_epg()
-    output = [f'#EXTM3U url-tvg="{PUBLIC_EPG_URL}"']
+    fr_lookup, fr_programme_ids = load_french_epg_lookup()
+    output = [f'#EXTM3U url-tvg="{PUBLIC_EPG_URL},https://srevvas.github.io/home-iptv/epg-fr.xml.gz"']
     counts = {}
     matched = 0
     unmatched = []
@@ -165,18 +231,20 @@ def main():
         count = 0
         for metadata, stream in entries(source):
             extinf = metadata[0]
-            if code in ('gr', 'cy'):
+            active_lookup = fr_lookup if code == 'fr' else lookup
+            active_programme_ids = fr_programme_ids if code == 'fr' else programme_ids
+            if code in ('gr', 'cy', 'fr'):
                 id_match = re.search(r'tvg-id="([^"]*)"', extinf)
                 old_id = id_match.group(1) if id_match else ''
                 title = extinf.split(',', 1)[-1]
                 title = re.sub(r'\s*\([^)]*\)|\s*\[[^]]*\]', '', title).strip()
                 candidates = [normalize(old_id.split('@', 1)[0].split('.', 1)[0]), normalize(title)]
-                new_id = EPG_IDS.get(old_id)
-                if new_id and programme_ids is not None and new_id not in programme_ids:
+                new_id = EPG_IDS.get(old_id) if code in ('gr', 'cy') else None
+                if new_id and active_programme_ids is not None and new_id not in active_programme_ids:
                     print(f'WARNING: no programmes for mapping {old_id} -> {new_id}')
                     new_id = None
                 if not new_id:
-                    matches = {lookup[key] for key in candidates if key in lookup}
+                    matches = {active_lookup[key] for key in candidates if key in active_lookup}
                     if len(matches) == 1:
                         new_id = matches.pop()
                 if new_id:
